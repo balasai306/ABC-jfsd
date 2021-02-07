@@ -1,0 +1,107 @@
+body {
+
+    background-color: azure;
+    padding: 2%;
+    border: solid silver 10px;
+    margin: 0 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+    width: 83%;
+}
+
+header.main {
+
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+nav {
+    background-color: silver;
+    border-radius: 25px;
+    font-size: 125%;
+    
+    padding: 10px;
+}
+
+section {
+    width: 90%;
+    font-size: 125%;
+    padding: 0 20% 0 0;
+}
+
+article {
+    border: 3px black solid;
+    border-radius: 25px;
+    background-color: coral;
+    padding-left: 1%;
+    width: 70%;
+}
+
+div.im {
+    background: url(Images/img1.jpg);
+    height: auto;
+    display: block;
+    text-align: justify;
+    padding: 3%;
+    font-size: 150%;
+    border-radius: 30px;
+}
+
+img {
+    border-radius: 50%;
+    width: 30%;
+    text-align: right;
+}
+
+div.main {
+    
+    width: auto;
+    background-image: url('images/img5.jpg');
+    background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+div.edu {
+    background-color: coral;
+    display: inline;
+    text-align: justify;
+    border: 3px black solid;
+    position: absolute;
+    right: 0px;
+    left: 68%;
+    width: 19%;
+    border-radius: 25px;
+    padding-left: 2%;
+    font-size: 90%;
+}
+
+
+aside {
+    font-size: 200%;
+}
+a{
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:active{
+    color:orange;
+}
+
+a:hover{
+    color:burlywood;
+}
+a:visited{
+    color: black;
+}
+footer{
+  font-size: 25px;
+}
